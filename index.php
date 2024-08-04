@@ -1,15 +1,22 @@
 <!doctype html>
-    <html style="background-color:powderblue;">
-        <?php include "header.php"; ?>
+    <html style="background-color:lightgreen;">  
+        <head>  
+            <?php
+                include "header.php";
+            ?>
+        </head>
         <body>
-            <p>
-                Albinism is a genetic mutation which results in a lack of Tyrosinase activity which then results in a lack of production of Melanin
-            </p>    
-            <p> <?php echo "for boa constrictors we have a few strains of albinos that cant be bred together. Sharp, Kahl, and T+ Albinos."; ?>
-            </p>
-            <a href="Sharp.php">Sharp</a>
-            <a href="Kahl.php">Kahl</a>
-            <a href="T+.php">T+</a>
+            <?php 
+                echo "they are made up of several subfamilies which we'll get into";
+            ?>
+            <a href="Colubridae.php">Colubridae</a>
+            <a href="Viperidae.php">Viperidae</a>
+            <a href="Elapidae.php">Elapidae</a>
+            <a href="Other.php">Others</a>
         </body>
-        <?php include "footer.php"; ?>
+        <footer>
+            <?php
+                include "footer.php";
+            ?>    
+        </footer>
     </html>        
