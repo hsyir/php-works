@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color:lightblue;">
+<html lang="en" style="background-color:lightgreen;">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        form {
+            border: 2px solid lightgreen;
+            padding: 360px;
+        }
+    </style>    
 </head>
 <body>
-    <form action="./name.php">
-        <label for="name">Name:</label><br>
-        <input type="text" name="name" id="name"><hr>
-        <label for="password">Password:</label><br>
-        <input type="password" name="password" id="password"><hr>
-        <input type="submit">
-        <input type="reset">
-    </form>    
+<form action="./factorial.php" method="GET" style="text-align:center;" style=">
+    <label for="Factorial">Factorial</label> <br>
+    <input type="text" id="Factorial" name="Factorial"> <br>
+    <input type="submit" value="Calculate">
+</form>
 </body>
 </html>
