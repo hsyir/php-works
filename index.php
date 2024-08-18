@@ -1,22 +1,18 @@
-<!doctype html>
-    <html style="background-color:lightgreen;">  
-        <head>  
-            <?php
-                include "header.php";
-            ?>
-        </head>
-        <body>
-            <?php 
-                echo "they are made up of several subfamilies which we'll get into";
-            ?>
-            <a href="Colubridae.php">Colubridae</a>
-            <a href="Viperidae.php">Viperidae</a>
-            <a href="Elapidae.php">Elapidae</a>
-            <a href="Other.php">Others</a>
-        </body>
-        <footer>
-            <?php
-                include "footer.php";
-            ?>    
-        </footer>
-    </html>        
+<!DOCTYPE html>
+<html lang="en" style="background-color:lightblue;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./name.php">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name"><hr>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password"><hr>
+        <input type="submit">
+        <input type="reset">
+    </form>    
+</body>
+</html>
